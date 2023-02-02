@@ -1,0 +1,5 @@
+names<-c("ram","sai","teja")
+age<-c(23,24,35)
+marks<-c(88,79,90)
+df<-data.frame(names,age,marks)
+barplot(age,horiz=TRUE)
